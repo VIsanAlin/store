@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar page">
+      <div class="nav-center">
+        <!-- links -->
+        <div>
+          <button class="toggle-nav">
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul class="nav-links">
+            <li>
+              <a href="index.html" class="nav-link"> home </a>
+            </li>
+          </ul>
+        </div>
+        <!-- logo -->
+        <img
+          src="./img/couch.jpg"
+          style="width: 10%"
+          class="nav-logo"
+          alt="logo"
+        />
+        <!-- cart icon -->
+        <div class="toggle-container">
+          <button class="toggle-cart">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+          <span class="cart-item-count">2</span>
+        </div>
+      </div>
+    </nav>
+    <a href="index.html" class="btn home-link">back home</a>
+
+    <section class="single-product"></section>
+    <section class="product"></section>
+
+    <script src="./js/info_product.js"></script>
+    <script src="./js/store.js"></script>
+    <script src="./js/product.js"></script>
+  </body>
+</html>
